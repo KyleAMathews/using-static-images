@@ -5,6 +5,6 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  flags: { FAST_DEV: true },
   plugins: [`gatsby-plugin-image`, `gatsby-plugin-sharp`],
 }
