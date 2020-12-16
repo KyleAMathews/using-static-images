@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
 
       <section>
         Hi! yo
+        <Link to="/second-page">Second page</Link>
         <StaticImage
           src="../images/drink-unsplash.jpg"
           layout="fixed"
